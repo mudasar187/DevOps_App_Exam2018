@@ -146,6 +146,7 @@ class GameOfThronesService(
         )
     }
 
+
     fun findById(idNumber: String?): ResponseEntity<WrappedResponse<PageDto<GameOfThronesDto>>> {
         val id: Long
 
